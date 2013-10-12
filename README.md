@@ -18,7 +18,7 @@ This would parse the sar log <code>/var/log/sa/sa06</code> starting at <code>7AM
 
 Example Output
 =========
-
+{% codeblock %}
 CPU Idle Percent         Load Averages
 __________________       ___________________________
 01:00:01 PM  99.07       01:00:01 PM  0.00 0.00 0.00
@@ -26,4 +26,4 @@ __________________       ___________________________
 01:20:01 PM  <code>76.08</code>       01:20:01 PM  0.00 0.02 0.00
 01:30:01 PM  99.07       01:30:01 PM  <code>1.01 0.67 0.33</code>
 01:40:01 PM  99.06       01:40:01 PM  0.00 0.00 0.00
-
+{% endcodeblock %}
