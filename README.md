@@ -15,3 +15,14 @@ Usage Example
 </code>
 
 This would parse the sar log <code>/var/log/sa/sa06</code> starting at <code>7AM</code> and ending at <code>7PM</code>
+
+Example Output
+=========
+
+    CPU Idle Percent         Load Averages
+    __________________       ___________________________
+    01:00:01 PM  99.07       01:00:01 PM  0.00 0.00 0.00
+    01:10:01 PM  99.07       01:10:01 PM  0.00 0.00 0.00
+    01:20:01 PM  99.08       01:20:01 PM  0.00 0.02 0.00
+    01:30:01 PM  99.07       01:30:01 PM  0.00 0.00 0.00
+    01:40:01 PM  99.06       01:40:01 PM  0.00 0.00 0.00
