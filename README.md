@@ -18,4 +18,6 @@ This would parse the sar log <code>/var/log/sa/sa06</code> starting at <code>7AM
 
 Example Output
 =========
+./SarHelper.py /var/log/sa/sa06 11:00:00 13:00:00
+
 ![alt tag](http://i.imgur.com/jndo6f3.png)
